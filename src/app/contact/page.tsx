@@ -55,11 +55,11 @@ export default function ContactPage() {
             <div className="mt-6 space-y-3 text-gray-600">
 
               <p>
-                <strong>Email:</strong> info@humrise.org
+                <strong>Email:</strong> humrisewelfarefoundation@gmail.com
               </p>
 
               <p>
-                <strong>Phone:</strong> +91 98765 43210
+                <strong>Phone:</strong> +91-9580344940
               </p>
 
               <p>

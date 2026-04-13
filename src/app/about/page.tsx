@@ -13,7 +13,7 @@ export default function AboutPage() {
           <p className="mt-6 max-w-3xl mx-auto text-lg">
             Humrise Welfare Foundation is committed to uplifting
             underprivileged communities through healthcare initiatives,
-            education support, plantation drives and social welfare programs.
+            education support, women empowerment, plantation drives and social welfare programs.
           </p>
 
         </div>
@@ -33,7 +33,7 @@ export default function AboutPage() {
               Humrise Welfare Foundation is a non-profit organization working
               towards building a better society. Our initiatives focus on
               providing essential services like healthcare support, education
-              assistance, environmental sustainability through plantation drives
+              assistance, women empowerment, environmental sustainability through plantation drives
               and community development programs.
             </p>
 
@@ -106,24 +106,24 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-4 gap-8 mt-12">
 
             <div>
-              <h3 className="text-4xl font-bold text-green-700">10,000+</h3>
+              <h3 className="text-4xl font-bold text-green-700">100+</h3>
               <p className="text-gray-600 mt-2">Lives Impacted</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-green-700">120+</h3>
+              <h3 className="text-4xl font-bold text-green-700">2+</h3>
               <p className="text-gray-600 mt-2">Health Camps</p>
             </div>
 
             <div>
-              <h3 className="text-4xl font-bold text-green-700">50+</h3>
+              <h3 className="text-4xl font-bold text-green-700">20+</h3>
               <p className="text-gray-600 mt-2">Volunteers</p>
             </div>
 
-            <div>
+            {/* <div>
               <h3 className="text-4xl font-bold text-green-700">20+</h3>
               <p className="text-gray-600 mt-2">Corporate Partners</p>
-            </div>
+            </div> */}
 
           </div>
 

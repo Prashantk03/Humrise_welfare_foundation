@@ -2,11 +2,9 @@ import Link from "next/link";
 
 export default function GalleryPreview() {
   const images = [
-    "/images/gallery1.png",
-    "/images/gallery2.png",
-    "/images/gallery3.png",
-    "/images/gallery4.png",
-    "/images/gallery5.png",
+    "/images/work1.png",
+    "/images/work2.png",
+    "/images/work3.png",
   ];
 
   return (

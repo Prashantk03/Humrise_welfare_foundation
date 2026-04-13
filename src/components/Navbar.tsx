@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { FiMenu, FiX } from "react-icons/fi";
+import Image from "next/image";
 
 export default function Navbar() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -14,7 +15,14 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link href="/" className="text-2xl font-bold text-green-700">
-          HUMRISE
+          <Image
+            src="/logos/logo.png"
+            alt="Humrise Welfare Foundation"
+            width={160}
+            height={40}
+            priority
+            className="object-contain"
+          />
         </Link>
 
         {/* Desktop Menu */}
