@@ -1,5 +1,5 @@
 async function getCampaigns() {
-  const res = await fetch("/api/campaigns", {
+  const res = await fetch("${process.env.NEXT_PUBLIC_BASE_URL}/api/campaigns", {
     cache: "no-store",
   });
 
